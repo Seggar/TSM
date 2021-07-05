@@ -1,0 +1,396 @@
+Message: TSM\LibTSM\Util\String.lua:63: bad argument #1 to 'strmatch' (string expected, got nil)
+Time: 07/05/21 20:33:37 (203551051)
+Client: 9.1.0 (39291)
+Locale: enUS
+Combat: false
+Error Count: 1
+Stack Trace:
+  TSM\LibTSM\Util\String.lua:63 <Escape>
+    str = nil
+    MAGIC_CHARACTERS = {
+      $ = true
+      ^ = true
+      + = true
+      ) = true
+      [ = true
+      * = true
+      ] = true
+      - = true
+      ? = true
+      . = true
+    }
+  TSM\Core\Service\Groups\Path.lua:43 <IsChild>
+    groupPath = "Current Content`Crafted`Alchemy`Combat Potions`Potion of Spectral Strength`New Group"
+    parentPath = nil
+  TSM\Core\UI\Elements\ManagementGroupTree.lua:291 <?>
+    row = {
+      _texts = {}
+      _scrollingTable = {}
+      _icons = {}
+      _sortId = "index"
+      _rowData = "Current Content`Crafted`Alchemy`Combat Potions`Potion of Spectral Strength`New Group"
+      _tableInfo = {}
+      _recycled = {}
+      _rotatingIcons = {}
+      _sortAscending = true
+      _buttons = {}
+      _state = "selectedHover"
+    }
+    groupPath = "Current Content`Crafted`Alchemy`Combat Potions`Potion of Spectral Strength`New Group"
+    destPath = "Current Content`Crafted`Alchemy`Combat Potions`Potion of Spectral Strength`New Group"
+    oldPath = nil
+  TSM\LibTSM\Util\ScriptWrapper.lua:86 <ScriptHandlerCommon>
+    script = "OnDragStop"
+    frame = <unnamed> {
+    }
+    key = "table: 0000020DF7C821C0:OnDragStop"
+    obj = {
+      _texts = {}
+      _scrollingTable = {}
+      _icons = {}
+      _sortId = "index"
+      _rowData = "Current Content`Crafted`Alchemy`Combat Potions`Potion of Spectral Strength`New Group"
+      _tableInfo = {}
+      _recycled = {}
+      _rotatingIcons = {}
+      _sortAscending = true
+      _buttons = {}
+      _state = "selectedHover"
+    }
+    startTime = 203551009.885200
+    private = {
+      nestedLevel = 1
+    }
+    SCRIPT_CALLBACK_TIME_WARNING_THRESHOLD_M
+  TSM\LibTSM\Util\ScriptWrapper.lua:37 <ScriptWrapper.lua:36>
+    private = {
+      nestedLevel = 1
+    }
+    script = "OnDragStop"
+Temp Tables:
+  [1] ?
+Object Pools:
+  UI_ActionButton (9 created, 2 in use)
+    [2] ???
+  UI_Button (26 created, 16 in use)
+    [16] ???
+  UI_LargeApplicationFrame (2 created, 1 in use)
+    <none>
+  UI_ApplicationGroupTree (1 created, 0 in use)
+    <none>
+  UI_Checkbox (3 created, 0 in use)
+    <none>
+  UI_SimpleTabGroup (1 created, 0 in use)
+    <none>
+  COOLDOWN_TASK (0 created, 0 in use)
+    <none>
+  AUCTION_SCAN_RESULT_SUB_ROW (615 created, 0 in use)
+    <none>
+  DATABASE_QUERIES (38 created, 32 in use)
+    [32] ???
+  UI_Frame (38 created, 24 in use)
+    [24] ???
+  UI_Text (43 created, 7 in use)
+    [7] ???
+  UI_ManagementGroupTree (1 created, 1 in use)
+    <none>
+  UI_MyAuctionsScrollingTable (1 created, 0 in use)
+    <none>
+  UI_SelectionScrollingTable (1 created, 0 in use)
+    <none>
+  UI_PlayerGoldText (1 created, 1 in use)
+    <none>
+  AUCTION_SCAN_QUERY (53 created, 0 in use)
+    <none>
+  UI_QueryScrollingTable (1 created, 0 in use)
+    <none>
+  DATABASE_SCHEMAS (1 created, 0 in use)
+    <none>
+  UI_Texture (11 created, 7 in use)
+    [7] ???
+  EXPIRING_MAIL_TASK (0 created, 0 in use)
+    <none>
+  TOOLTIP_ENTRY (46 created, 46 in use)
+    [46] ???
+  UI_ScrollFrame (1 created, 0 in use)
+    <none>
+  UI_MultiselectionDropdown (1 created, 0 in use)
+    <none>
+  GATHERING_ALT_TASK (0 created, 0 in use)
+    <none>
+  UI_Spacer (20 created, 2 in use)
+    [2] ???
+  UI_ProgressBar (1 created, 0 in use)
+    <none>
+  SCROLLING_TABLE_COL_INFO (15 created, 3 in use)
+    [3] ???
+  UI_ApplicationFrame (1 created, 0 in use)
+    <none>
+  AUCTION_SCAN_MANAGER (2 created, 0 in use)
+    <none>
+  EXPIRED_AUCTION_TASK (1 created, 1 in use)
+    <none>
+  UI_CommodityList (1 created, 0 in use)
+    <none>
+  DATABASE_QUERY_CLAUSES (96 created, 80 in use)
+    [80] ???
+  UI_EditableText (1 created, 1 in use)
+    <none>
+  AUCTION_SCAN_RESULT_ROW (52 created, 0 in use)
+    <none>
+  UI_TabGroup (1 created, 1 in use)
+    <none>
+  UI_ViewContainer (2 created, 1 in use)
+    <none>
+  UI_Graph (1 created, 0 in use)
+    <none>
+  DATABASE_QUERY_RESULT_ROWS (1326 created, 1238 in use)
+    [1238] ???
+  TABLE_ROWS (50 created, 33 in use)
+    [33] ???
+  UI_DividedContainer (2 created, 1 in use)
+    <none>
+  UI_GroupSelector (1 created, 0 in use)
+    <none>
+  UI_SearchList (1 created, 0 in use)
+    <none>
+  UI_AuctionScrollingTable (1 created, 0 in use)
+    <none>
+  UI_ItemList (2 created, 2 in use)
+    [2] ???
+  UI_Input (3 created, 2 in use)
+    [2] ???
+  QUERY_SCROLLING_TABLE_COL_INFO (6 created, 0 in use)
+    <none>
+  UI_AlphaAnimatedFrame (9 created, 5 in use)
+    [5] ???
+  UI_SelectionDropdown (1 created, 1 in use)
+    <none>
+Running Threads:
+Debug Log:
+  20:33:41.009 [ERR] {ErrorHandler.lua:185} TSM\LibTSM\Util\String.lua:63: bad argument #1 to 'strmatch' (string expected, got nil)
+  20:33:38.686 [WARN] {ScriptWrapper.lua:90} Script handler (OnDragStop) for frame (TableRow:0000020D350B4890) took 180.10ms
+  20:33:38.686 [INFO] {Analytics.lua:78} AC MOVED_GROUP Current Content`Crafted`Alchemy`Combat Potions`New Group Current Content`Crafted`Alchemy`Combat Potions`Potion of Spectral Strength`New Group
+  20:33:35.696 [WARN] {ScriptWrapper.lua:90} Script handler (OnClick) for frame (table: 0000020D350B4700) took 122.52ms
+  20:33:35.696 [INFO] {Analytics.lua:78} AC UI_NAVIGATION main/groups/information main/groups/items
+  20:33:35.696 [INFO] {Analytics.lua:78} AC CREATED_GROUP Current Content`Crafted`Alchemy`Combat Potions`New Group
+  20:33:29.045 [WARN] {ScriptWrapper.lua:90} Script handler (OnClick) for frame (Button:NavBar_Groups.button) took 64.68ms
+  20:33:29.045 [INFO] {Analytics.lua:78} AC UI_NAVIGATION main/groups main/groups/information
+  20:33:29.045 [INFO] {Analytics.lua:78} AC UI_NAVIGATION main/dashboard main/groups
+  20:33:28.176 [WARN] {ScriptWrapper.lua:90} Script handler (OnUpdate) for frame (Frame:dashboard.content) took 66.47ms
+  20:33:28.176 [INFO] {Analytics.lua:78} AC UI_NAVIGATION main main/dashboard
+  20:33:28.176 [INFO] {Analytics.lua:78} AC UI_NAVIGATION  main
+  20:33:27.178 [INFO] {Analytics.lua:78} AC UI_NAVIGATION auction/auctioning/selection 
+  20:33:27.178 [INFO] {Sniper.lua:293} [SNIPER] ST_INIT -> ST_INIT
+  20:33:27.178 [INFO] {Sniper.lua:293} [SNIPER] EV_AUCTION_HOUSE_CLOSED
+  20:33:27.178 [INFO] {Auctioning.lua:838} [AUCTIONING] ST_INIT -> ST_INIT
+  20:33:27.178 [INFO] {Auctioning.lua:838} [AUCTIONING] EV_AUCTION_HOUSE_CLOSED
+  20:33:27.178 [INFO] {Shopping.lua:1845} [SHOPPING] ST_INIT -> ST_INIT
+  20:33:27.178 [INFO] {Shopping.lua:1845} [SHOPPING] EV_AUCTION_HOUSE_CLOSED
+  20:33:27.178 [INFO] {Sniper.lua:293} [SNIPER] ST_INIT -> ST_INIT
+  20:33:27.178 [INFO] {Sniper.lua:293} [SNIPER] EV_AUCTION_HOUSE_CLOSED
+  20:33:27.178 [INFO] {Auctioning.lua:838} [AUCTIONING] ST_INIT -> ST_INIT
+  20:33:27.178 [INFO] {Auctioning.lua:838} [AUCTIONING] EV_AUCTION_HOUSE_CLOSED
+  20:33:27.178 [INFO] {Shopping.lua:1845} [SHOPPING] ST_INIT -> ST_INIT
+  20:33:27.178 [INFO] {Shopping.lua:1845} [SHOPPING] EV_AUCTION_HOUSE_CLOSED
+  20:33:26.404 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_SYSTEM_READY ()
+  20:33:26.348 [INFO] {AuctionHouseWrapper.lua:685} OWNED_AUCTIONS_UPDATED ()
+  20:33:26.254 [INFO] {AuctionTracking.lua:466} Scanned auctions (left=0)
+  20:33:26.245 [INFO] {Analytics.lua:78} AC AH_API_TIME EU-Kilrogg QueryOwnedAuctions 171
+  20:33:26.245 [INFO] {AuctionHouseWrapper.lua:685} OWNED_AUCTIONS_UPDATED ()
+  20:33:26.245 [INFO] {AuctionHouseWrapper.lua:675} AUCTION_HOUSE_THROTTLED_MESSAGE_RESPONSE_RECEIVED ()
+  20:33:26.074 [INFO] {AuctionHouseWrapper.lua:378} QueryOwnedAuctions({sorts={Name,Price}})
+  20:33:26.074 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_MESSAGE_SENT ()
+  20:33:25.924 [WARN] {Event.lua:88} Event (AUCTION_HOUSE_SHOW) callback took 37.63ms
+  20:33:25.924 [WARN] {Event.lua:88} Event (AUCTION_HOUSE_SHOW) callback took 89.29ms
+  20:33:25.924 [INFO] {Analytics.lua:78} AC UI_NAVIGATION auction/auctioning auction/auctioning/selection
+  20:33:25.924 [INFO] {Analytics.lua:78} AC UI_NAVIGATION auction auction/auctioning
+  20:33:25.924 [INFO] {Analytics.lua:78} AC UI_NAVIGATION  auction
+  20:33:23.913 [INFO] {AuctionHouseWrapper.lua:685} AUCTION_CANCELED (876856941)
+  20:32:44.260 [INFO] {AuctionHouseWrapper.lua:685} AUCTION_CANCELED (876843586)
+  20:30:20.193 [INFO] {AuctionHouseWrapper.lua:685} AUCTION_CANCELED (876856934)
+  20:27:53.619 [INFO] {Analytics.lua:78} AC UI_NAVIGATION auction/auctioning/selection 
+  20:27:53.619 [INFO] {Sniper.lua:293} [SNIPER] ST_INIT -> ST_INIT
+  20:27:53.619 [INFO] {Sniper.lua:293} [SNIPER] EV_AUCTION_HOUSE_CLOSED
+  20:27:53.619 [INFO] {Auctioning.lua:838} [AUCTIONING] ST_INIT -> ST_INIT
+  20:27:53.619 [INFO] {Auctioning.lua:838} [AUCTIONING] EV_AUCTION_HOUSE_CLOSED
+  20:27:53.619 [INFO] {Shopping.lua:1845} [SHOPPING] ST_INIT -> ST_INIT
+  20:27:53.619 [INFO] {Shopping.lua:1845} [SHOPPING] EV_AUCTION_HOUSE_CLOSED
+  20:27:53.619 [INFO] {Sniper.lua:293} [SNIPER] ST_INIT -> ST_INIT
+  20:27:53.619 [INFO] {Sniper.lua:293} [SNIPER] EV_AUCTION_HOUSE_CLOSED
+  20:27:53.619 [INFO] {Auctioning.lua:838} [AUCTIONING] ST_INIT -> ST_INIT
+  20:27:53.619 [INFO] {Auctioning.lua:838} [AUCTIONING] EV_AUCTION_HOUSE_CLOSED
+  20:27:53.619 [INFO] {Shopping.lua:1845} [SHOPPING] ST_INIT -> ST_INIT
+  20:27:53.619 [INFO] {Shopping.lua:1845} [SHOPPING] EV_AUCTION_HOUSE_CLOSED
+  20:27:51.598 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_SYSTEM_READY ()
+  20:27:51.547 [INFO] {AuctionHouseWrapper.lua:685} OWNED_AUCTIONS_UPDATED ()
+  20:27:51.444 [INFO] {AuctionTracking.lua:466} Scanned auctions (left=0)
+  20:27:51.436 [INFO] {Analytics.lua:78} AC AH_API_TIME EU-Kilrogg QueryOwnedAuctions 181
+  20:27:51.436 [INFO] {AuctionHouseWrapper.lua:685} OWNED_AUCTIONS_UPDATED ()
+  20:27:51.436 [INFO] {AuctionHouseWrapper.lua:675} AUCTION_HOUSE_THROTTLED_MESSAGE_RESPONSE_RECEIVED ()
+  20:27:51.255 [INFO] {AuctionHouseWrapper.lua:378} QueryOwnedAuctions({sorts={Name,Price}})
+  20:27:51.255 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_MESSAGE_SENT ()
+  20:27:51.109 [WARN] {Event.lua:88} Event (AUCTION_HOUSE_SHOW) callback took 36.82ms
+  20:27:51.109 [WARN] {Event.lua:88} Event (AUCTION_HOUSE_SHOW) callback took 86.95ms
+  20:27:51.109 [INFO] {Analytics.lua:78} AC UI_NAVIGATION auction/auctioning auction/auctioning/selection
+  20:27:51.109 [INFO] {Analytics.lua:78} AC UI_NAVIGATION auction auction/auctioning
+  20:27:51.109 [INFO] {Analytics.lua:78} AC UI_NAVIGATION  auction
+  20:27:33.771 [INFO] {Analytics.lua:78} AC UI_NAVIGATION auction/auctioning/scan/log 
+  20:27:33.771 [INFO] {Sniper.lua:293} [SNIPER] ST_INIT -> ST_INIT
+  20:27:33.771 [INFO] {Sniper.lua:293} [SNIPER] EV_AUCTION_HOUSE_CLOSED
+  20:27:33.771 [INFO] {Auctioning.lua:838} [AUCTIONING] ST_INIT -> ST_INIT
+  20:27:33.771 [INFO] {Auctioning.lua:838} [AUCTIONING] EV_AUCTION_HOUSE_CLOSED
+  20:27:33.771 [INFO] {Shopping.lua:1845} [SHOPPING] ST_INIT -> ST_INIT
+  20:27:33.771 [INFO] {Shopping.lua:1845} [SHOPPING] EV_AUCTION_HOUSE_CLOSED
+  20:27:33.771 [INFO] {Sniper.lua:293} [SNIPER] ST_INIT -> ST_INIT
+  20:27:33.771 [INFO] {Sniper.lua:293} [SNIPER] EV_AUCTION_HOUSE_CLOSED
+  20:27:33.771 [INFO] {Auctioning.lua:838} [AUCTIONING] ST_DONE -> ST_INIT
+  20:27:33.771 [INFO] {Auctioning.lua:838} [AUCTIONING] EV_AUCTION_HOUSE_CLOSED
+  20:27:33.771 [INFO] {Shopping.lua:1845} [SHOPPING] ST_INIT -> ST_INIT
+  20:27:33.771 [INFO] {Shopping.lua:1845} [SHOPPING] EV_AUCTION_HOUSE_CLOSED
+  20:27:33.771 [INFO] {Auctioning.lua:752} [AUCTIONING] EV_SCAN_FRAME_HIDDEN
+  20:27:30.044 [INFO] {Shopping.lua:1848} [SHOPPING] EV_BAG_UPDATE_DELAYED
+  20:27:30.044 [WARN] {Event.lua:88} Event (BAG_UPDATE_DELAYED) callback took 61.02ms
+  20:27:30.044 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_OPENING -> ST_FRAME_CLOSED
+  20:27:30.044 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_CLOSED -> ST_FRAME_OPENING
+  20:27:30.044 [INFO] {Core.lua:446} [DESTROYING] EV_BAG_UPDATE
+  20:27:30.044 [INFO] {Crafting.lua:1016} [CRAFTING_UI_CRAFTING] EV_BAG_UPDATE_DELAYED
+  20:27:28.777 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_SYSTEM_READY ()
+  20:27:28.608 [INFO] {AuctionHouseWrapper.lua:685} OWNED_AUCTIONS_UPDATED ()
+  20:27:28.608 [INFO] {AuctionHouseWrapper.lua:675} AUCTION_HOUSE_THROTTLED_MESSAGE_RESPONSE_RECEIVED ()
+  20:27:28.593 [INFO] {AuctionTracking.lua:466} Scanned auctions (left=0)
+  20:27:28.586 [INFO] {Analytics.lua:78} AC AH_API_TIME EU-Kilrogg QueryOwnedAuctions 310
+  20:27:28.586 [INFO] {AuctionHouseWrapper.lua:685} OWNED_AUCTIONS_UPDATED ()
+  20:27:28.449 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_MESSAGE_SENT ()
+  20:27:28.360 [INFO] {Shopping.lua:1848} [SHOPPING] EV_BAG_UPDATE_DELAYED
+  20:27:28.360 [WARN] {Event.lua:88} Event (BAG_UPDATE_DELAYED) callback took 26.99ms
+  20:27:28.360 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_OPENING -> ST_FRAME_CLOSED
+  20:27:28.360 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_CLOSED -> ST_FRAME_OPENING
+  20:27:28.360 [INFO] {Core.lua:446} [DESTROYING] EV_BAG_UPDATE
+  20:27:28.360 [INFO] {Crafting.lua:1016} [CRAFTING_UI_CRAFTING] EV_BAG_UPDATE_DELAYED
+  20:27:28.360 [INFO] {Other.lua:292} [MAILING_GROUPS] EV_PLAYER_MONEY_UPDATE
+  20:27:28.276 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_MESSAGE_QUEUED ()
+  20:27:28.276 [INFO] {AuctionHouseWrapper.lua:378} QueryOwnedAuctions({sorts={Name,Price}})
+  20:27:28.276 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_HANDLING_CONFIRM -> ST_DONE
+  20:27:28.276 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_RESULTS -> ST_HANDLING_CONFIRM
+  20:27:28.276 [INFO] {Auctioning.lua:1608} [AUCTIONING] EV_PENDING_FUTURE_DONE
+  20:27:28.276 [INFO] {Analytics.lua:78} AC AH_API_TIME EU-Kilrogg PostCommodity 168
+  20:27:28.276 [INFO] {AuctionHouseWrapper.lua:685} AUCTION_HOUSE_AUCTION_CREATED (876856963)
+  20:27:28.276 [INFO] {AuctionHouseWrapper.lua:675} AUCTION_HOUSE_THROTTLED_MESSAGE_RESPONSE_RECEIVED ()
+  20:27:28.108 [INFO] {AuctionHouseWrapper.lua:378} PostCommodity({<ItemLocation:(3,16)>},1,40,2959800)
+  20:27:28.108 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_MESSAGE_SENT ()
+  20:27:28.108 [INFO] {PostScan.lua:130} Posting i:171274 x 40 from 3,16 (20)
+  20:27:28.108 [INFO] {Auctioning.lua:739} [AUCTIONING] EV_PROCESS_CLICKED
+  20:27:27.744 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_SYSTEM_READY ()
+  20:27:27.564 [INFO] {Shopping.lua:1848} [SHOPPING] EV_BAG_UPDATE_DELAYED
+  20:27:27.564 [WARN] {Event.lua:88} Event (BAG_UPDATE_DELAYED) callback took 28.20ms
+  20:27:27.564 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_OPENING -> ST_FRAME_CLOSED
+  20:27:27.564 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_CLOSED -> ST_FRAME_OPENING
+  20:27:27.564 [INFO] {Core.lua:446} [DESTROYING] EV_BAG_UPDATE
+  20:27:27.564 [INFO] {Crafting.lua:1016} [CRAFTING_UI_CRAFTING] EV_BAG_UPDATE_DELAYED
+  20:27:27.564 [INFO] {Other.lua:292} [MAILING_GROUPS] EV_PLAYER_MONEY_UPDATE
+  20:27:27.564 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_HANDLING_CONFIRM -> ST_RESULTS
+  20:27:27.564 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_RESULTS -> ST_HANDLING_CONFIRM
+  20:27:27.564 [INFO] {Auctioning.lua:1608} [AUCTIONING] EV_PENDING_FUTURE_DONE
+  20:27:27.564 [INFO] {Analytics.lua:78} AC AH_API_TIME EU-Kilrogg PostCommodity 172
+  20:27:27.564 [INFO] {AuctionHouseWrapper.lua:685} AUCTION_HOUSE_AUCTION_CREATED (876856956)
+  20:27:27.564 [INFO] {AuctionHouseWrapper.lua:675} AUCTION_HOUSE_THROTTLED_MESSAGE_RESPONSE_RECEIVED ()
+  20:27:27.392 [INFO] {AuctionHouseWrapper.lua:378} PostCommodity({<ItemLocation:(4,26)>},1,40,1509300)
+  20:27:27.392 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_MESSAGE_SENT ()
+  20:27:27.392 [INFO] {PostScan.lua:130} Posting i:176811 x 40 from 4,26 (20)
+  20:27:27.392 [INFO] {Auctioning.lua:739} [AUCTIONING] EV_PROCESS_CLICKED
+  20:27:26.999 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_SYSTEM_READY ()
+  20:27:26.848 [INFO] {Shopping.lua:1848} [SHOPPING] EV_BAG_UPDATE_DELAYED
+  20:27:26.848 [WARN] {Event.lua:88} Event (BAG_UPDATE_DELAYED) callback took 28.70ms
+  20:27:26.848 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_OPENING -> ST_FRAME_CLOSED
+  20:27:26.848 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_CLOSED -> ST_FRAME_OPENING
+  20:27:26.848 [INFO] {Core.lua:446} [DESTROYING] EV_BAG_UPDATE
+  20:27:26.848 [INFO] {Crafting.lua:1016} [CRAFTING_UI_CRAFTING] EV_BAG_UPDATE_DELAYED
+  20:27:26.848 [INFO] {Other.lua:292} [MAILING_GROUPS] EV_PLAYER_MONEY_UPDATE
+  20:27:26.827 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_HANDLING_CONFIRM -> ST_RESULTS
+  20:27:26.827 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_RESULTS -> ST_HANDLING_CONFIRM
+  20:27:26.827 [INFO] {Auctioning.lua:1608} [AUCTIONING] EV_PENDING_FUTURE_DONE
+  20:27:26.827 [INFO] {Analytics.lua:78} AC AH_API_TIME EU-Kilrogg PostCommodity 109
+  20:27:26.827 [INFO] {AuctionHouseWrapper.lua:685} AUCTION_HOUSE_AUCTION_CREATED (876856948)
+  20:27:26.827 [INFO] {AuctionHouseWrapper.lua:675} AUCTION_HOUSE_THROTTLED_MESSAGE_RESPONSE_RECEIVED ()
+  20:27:26.718 [INFO] {AuctionHouseWrapper.lua:378} PostCommodity({<ItemLocation:(3,2)>},1,40,2849800)
+  20:27:26.718 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_MESSAGE_SENT ()
+  20:27:26.718 [INFO] {PostScan.lua:130} Posting i:171352 x 40 from 3,2 (20)
+  20:27:26.718 [INFO] {Auctioning.lua:739} [AUCTIONING] EV_PROCESS_CLICKED
+  20:27:26.612 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_SYSTEM_READY ()
+  20:27:26.453 [INFO] {Shopping.lua:1848} [SHOPPING] EV_BAG_UPDATE_DELAYED
+  20:27:26.453 [WARN] {Event.lua:88} Event (BAG_UPDATE_DELAYED) callback took 28.59ms
+  20:27:26.453 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_OPENING -> ST_FRAME_CLOSED
+  20:27:26.453 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_CLOSED -> ST_FRAME_OPENING
+  20:27:26.453 [INFO] {Core.lua:446} [DESTROYING] EV_BAG_UPDATE
+  20:27:26.453 [INFO] {Crafting.lua:1016} [CRAFTING_UI_CRAFTING] EV_BAG_UPDATE_DELAYED
+  20:27:26.453 [INFO] {Other.lua:292} [MAILING_GROUPS] EV_PLAYER_MONEY_UPDATE
+  20:27:26.442 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_HANDLING_CONFIRM -> ST_RESULTS
+  20:27:26.442 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_RESULTS -> ST_HANDLING_CONFIRM
+  20:27:26.442 [INFO] {Auctioning.lua:1608} [AUCTIONING] EV_PENDING_FUTURE_DONE
+  20:27:26.442 [INFO] {Analytics.lua:78} AC AH_API_TIME EU-Kilrogg PostCommodity 187
+  20:27:26.442 [INFO] {AuctionHouseWrapper.lua:685} AUCTION_HOUSE_AUCTION_CREATED (876856946)
+  20:27:26.442 [INFO] {AuctionHouseWrapper.lua:675} AUCTION_HOUSE_THROTTLED_MESSAGE_RESPONSE_RECEIVED ()
+  20:27:26.292 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_MESSAGE_SENT ()
+  20:27:26.255 [INFO] {AuctionHouseWrapper.lua:378} PostCommodity({<ItemLocation:(3,7)>},1,40,2724800)
+  20:27:26.255 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_MESSAGE_QUEUED ()
+  20:27:26.255 [INFO] {PostScan.lua:130} Posting i:171350 x 40 from 3,7 (20)
+  20:27:26.255 [INFO] {Auctioning.lua:739} [AUCTIONING] EV_PROCESS_CLICKED
+  20:27:26.146 [INFO] {Shopping.lua:1848} [SHOPPING] EV_BAG_UPDATE_DELAYED
+  20:27:26.146 [WARN] {Event.lua:88} Event (BAG_UPDATE_DELAYED) callback took 23.96ms
+  20:27:26.146 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_OPENING -> ST_FRAME_CLOSED
+  20:27:26.146 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_CLOSED -> ST_FRAME_OPENING
+  20:27:26.146 [INFO] {Core.lua:446} [DESTROYING] EV_BAG_UPDATE
+  20:27:26.146 [INFO] {Crafting.lua:1016} [CRAFTING_UI_CRAFTING] EV_BAG_UPDATE_DELAYED
+  20:27:26.146 [INFO] {Other.lua:292} [MAILING_GROUPS] EV_PLAYER_MONEY_UPDATE
+  20:27:26.122 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_HANDLING_CONFIRM -> ST_RESULTS
+  20:27:26.122 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_RESULTS -> ST_HANDLING_CONFIRM
+  20:27:26.122 [INFO] {Auctioning.lua:1608} [AUCTIONING] EV_PENDING_FUTURE_DONE
+  20:27:26.122 [INFO] {Analytics.lua:78} AC AH_API_TIME EU-Kilrogg PostCommodity 117
+  20:27:26.122 [INFO] {AuctionHouseWrapper.lua:685} AUCTION_HOUSE_AUCTION_CREATED (876856944)
+  20:27:26.122 [INFO] {AuctionHouseWrapper.lua:675} AUCTION_HOUSE_THROTTLED_MESSAGE_RESPONSE_RECEIVED ()
+  20:27:26.005 [INFO] {AuctionHouseWrapper.lua:378} PostCommodity({<ItemLocation:(0,4)>},1,12,3249200)
+  20:27:26.005 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_MESSAGE_SENT ()
+  20:27:26.005 [INFO] {PostScan.lua:130} Posting i:171349 x 12 from 0,4 (12)
+  20:27:26.005 [INFO] {Auctioning.lua:739} [AUCTIONING] EV_PROCESS_CLICKED
+  20:27:25.889 [INFO] {AuctionHouseWrapper.lua:680} AUCTION_HOUSE_THROTTLED_SYSTEM_READY ()
+  20:27:25.709 [INFO] {Shopping.lua:1848} [SHOPPING] EV_BAG_UPDATE_DELAYED
+  20:27:25.709 [WARN] {Event.lua:88} Event (BAG_UPDATE_DELAYED) callback took 26.23ms
+  20:27:25.709 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_OPENING -> ST_FRAME_CLOSED
+  20:27:25.709 [INFO] {Core.lua:446} [DESTROYING] ST_FRAME_CLOSED -> ST_FRAME_OPENING
+  20:27:25.709 [INFO] {Core.lua:446} [DESTROYING] EV_BAG_UPDATE
+  20:27:25.709 [INFO] {Crafting.lua:1016} [CRAFTING_UI_CRAFTING] EV_BAG_UPDATE_DELAYED
+  20:27:25.709 [INFO] {Other.lua:292} [MAILING_GROUPS] EV_PLAYER_MONEY_UPDATE
+  20:27:25.709 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_HANDLING_CONFIRM -> ST_RESULTS
+  20:27:25.709 [INFO] {Auctioning.lua:1608} [AUCTIONING] ST_RESULTS -> ST_HANDLING_CONFIRM
+  20:27:25.709 [INFO] {Auctioning.lua:1608} [AUCTIONING] EV_PENDING_FUTURE_DONE
+  20:27:25.709 [INFO] {Analytics.lua:78} AC AH_API_TIME EU-Kilrogg PostCommodity 139
+  20:27:25.709 [INFO] {AuctionHouseWrapper.lua:685} AUCTION_HOUSE_AUCTION_CREATED (876856941)
+  20:27:25.709 [INFO] {AuctionHouseWrapper.lua:675} AUCTION_HOUSE_THROTTLED_MESSAGE_RESPONSE_RECEIVED ()
+  20:27:25.570 [INFO] {AuctionHouseWrapper.lua:378} PostCommodity({<ItemLocation:(0,2)>},1,30,1581300)
+Addons:
+  ACP (3.5.7)
+  AllTheThings (SL-2.3.6)
+  BadBoy (v9.1.0)
+  BadBoy_CCleaner (v9.1.0)
+  BagBrother ()
+  Bagnon (9.1.0)
+  BattlePetCageMatch (V3.2)
+  Broker_Cash (2.1.7)
+  BuyEmAll (3.5.9)
+  Dejunk (9.1.0)
+  Ace3 (Release-r1252)
+  MacroToolkit (v7.3.0.2)
+  Misspelled (1.8.5)
+  Nys_ToDoList (5.7.1)
+  Prat-3.0 (3.9.1)
+  Rematch (4.11.16)
+  Rematch_TSMPetValues (1.1.22)
+  SushiSort (9.1.0.1)
+  TokenChecker (4.4)
+  TitanPerformance (5.20.4.90005)
+  WIM (3.9.1)
+  SmexyMats (9.0.5 Retail)
+  TSM (v4.11.3)
+  TSM_AppHelper (v4.0.15)
+  AltVault (1.6.5)
